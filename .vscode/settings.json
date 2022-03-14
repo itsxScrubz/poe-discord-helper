@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": true,
+    "window.zoomLevel": -1.5,
+    "files.autoSave": "off",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.useTabs": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "search.exclude": {
+        "node_modules": true,
+        "yarn.lock": true
+    }
+}
