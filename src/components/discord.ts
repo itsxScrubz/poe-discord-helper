@@ -53,13 +53,18 @@ export default class Discord {
             await this.client.users.fetch(Config.Discord.UserID).then(user => {
                 user.send(message);
             });
+            this.events.emit(
+                'logger',
+                'info',
+                `The following message was sent to user ${Config.Discord.UserID}: ${message}`,
+            );
         } else {
             await this.channel.send(`<@${Config.Discord.UserID}> ${message}`);
+            this.events.emit(
+                'logger',
+                'info',
+                `The following message was sent to channel ${Config.Discord.ChannelID}: ${message}`,
+            );
         }
-        this.events.emit(
-            'logger',
-            'info',
-            `The following message was sent to channel ${Config.Discord.ChannelID}: ${message}`,
-        );
     };
 }
