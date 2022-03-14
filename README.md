@@ -27,7 +27,7 @@ You will need the following:
 You can get these inside discord via Rightclick => Copy ID.  
 If you don't see this option, go to Settings => Advanced and turn on Developer Mode.  
 Go to `src/components/config.ts`. and set your user id and channel id.  
-Settings `DirectMessage` to true inside the config will have the bot direct message you instead of tagging you inside a channel.
+Setting `DirectMessage` to true inside the config will have the bot direct message you instead of tagging you inside a channel.
 
 # Running
 
