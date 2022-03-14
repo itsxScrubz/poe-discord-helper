@@ -3,6 +3,12 @@
 This is something I'm building into the trade overlay I'm working on.  
 I figured I'd release this version incase anyone wants to use it seperately.
 
+\*\*NOTE\*\*  
+This bot DOES check the TFT blacklist, and will add `Warning! This player is blacklisted on TFT.` to the message.
+
+There is a section for languages. If you would like to add to it just make a pull request.  
+There is an ru section, but no it is not translated.
+
 # Discord Setup
 
 Head over to the [Discord dev panel](https://discord.com/developers/applications).  
