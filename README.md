@@ -1,10 +1,12 @@
-# Standalone discord bot to notify you of trades.
+# POE-Discord-Helper.
 
-This is something I'm building into the trade overlay I'm working on.  
-I figured I'd release this version incase anyone wants to use it seperately.
+This is a discord bot that scans Path of Exile's client.txt logfile and sends you a message or pings a channel in discord when you recieve a trade request ingame. This does **NOT** detect if you're afk or not. The idea was to just run the bot, and afk from PoE but still get notified of a trade request.
+
+This is not something I plan on adding more features to, since I will be integrating it (along with more features) into the trade overlay I'm working on.
 
 \*\*NOTE\*\*  
-This bot DOES check the TFT blacklist, and will add `Warning! This player is blacklisted on TFT.` to the message.
+This bot DOES check the TFT blacklist, and will add `Warning! This player is blacklisted on TFT.` to the message.  
+I only have it set to work with the whispers from the official trade site. I'm somewhat new to poe still, so I'm not sure about other sites and what their whispers may look like.
 
 There is a section for languages. If you would like to add to it just make a pull request.  
 There is an ru section, but no it is not translated.
